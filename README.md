@@ -19,25 +19,17 @@ Welcome to the **Rick and Morty App**! This Flutter-based mobile application let
 
 Here’s a look at the app in action:
 
-### Favorites Screen (Empty State)
-When you haven't added any favorites yet, you'll see this playful empty state with Rick and Morty silhouettes.
-
-![Favorites Screen Empty State](https://github.com/user/repo/raw/main/screenshots/favorites_empty.png)
-
-### Favorites Screen (Dark Theme)
+### (Splash)
+<img src="assets/images/splash.png" alt="Alt text" width="250" style="display: inline-block;" />
+### (Light Theme)
+<img src="assets/images/light.png" alt="Alt text" width="250" style="display: inline-block;" />
+### (Dark Theme)
+<img src="assets/images/dark.png" alt="Alt text" width="250" style="display: inline-block;" />
 The favorites screen in dark mode, showing a list of favorited characters with sorting by name.
+<img src="assets/images/sorting_name.png" alt="Alt text" width="250" style="display: inline-block;" />
+The favorites screen in dark mode, showing a list of favorited characters with sorting by name.
+<img src="assets/images/sorting_status.png" alt="Alt text" width="250" style="display: inline-block;" />
 
-![Favorites Screen Dark Theme](https://github.com/user/repo/raw/main/screenshots/favorites_dark.png)
-
-### Favorites Screen (Dark Theme, Sorted by Status)
-The same favorites screen in dark mode, but sorted by status.
-
-![Favorites Screen Dark Theme Sorted by Status](https://github.com/user/repo/raw/main/screenshots/favorites_dark_sorted_status.png)
-
-### Favorites Screen (Light Theme)
-The favorites screen in light mode, showing characters with their details and favorite toggle.
-
-![Favorites Screen Light Theme](https://github.com/user/repo/raw/main/screenshots/favorites_light.png)
 
 ---
 
