@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:rick_and_morty/src/data/models/character/character_model.dart';
 import 'package:rick_and_morty/src/data/models/location/location_model.dart';
@@ -12,5 +11,5 @@ void main() async {
   Hive.registerAdapter(CharacterModelAdapter());
   Hive.registerAdapter(LocationModelAdapter());
   await dependencyContainer.initialize();
-  runApp(const ProviderScope(child: MyApp()));
+  runApp(MyApp());
 }

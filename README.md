@@ -64,7 +64,7 @@ The favorites screen in light mode, showing characters with their details and fa
 3. **Generate Code**:
    This project uses code generation for JSON serialization and Hive storage. Run the following command to generate necessary files:
    ```bash
-   flutter pub run build_runner build --delete-conflicting-outputs
+   dart run build_runner build --delete-conflicting-outputs
    ```
 
 4. **Run the App**:
@@ -108,15 +108,6 @@ The app leverages several Flutter packages to streamline development and enhance
 ### Storage Code Generation
 - **hive_generator** (dev): Generates Hive adapters for storing objects.
 
-### Other
-- **flutter_riverpod**: Included for potential future state management (not currently used).
-- **flutter_lints** (dev): Enforces linting rules for cleaner code.
-
-### Assets
-- **Fonts**: The app uses the custom "Get Schwifty" font (`get_schwifty.ttf`) for a *Rick and Morty* vibe, declared in `pubspec.yaml` under `flutter.fonts`.
-- **Images**: Placeholder for images in `assets/images/`, though none are currently used.
-
----
 
 ## Project Structure
 
@@ -150,38 +141,3 @@ Here’s a high-level overview of the project structure:
 - The state (`CharacterState`) includes `characters`, `favorites`, and `favoriteEntities` for displaying full character details.
 
 ---
-
-## Troubleshooting
-
-- **Favorites Not Showing**: Ensure `LoadFavorites` is triggered when navigating to the `FavoritesScreen`. Check Hive initialization in your app’s entry point.
-- **Font Not Loading**: Verify that `get_schwifty.ttf` is in `assets/fonts/` and correctly declared in `pubspec.yaml`.
-- **API Errors**: Use the `pretty_dio_logger` logs to debug network issues. Ensure you have an internet connection.
-
----
-
-## Contributing
-
-Feel free to contribute to the project by submitting issues or pull requests. To contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make your changes and commit (`git commit -m "Add your feature"`).
-4. Push to your branch (`git push origin feature/your-feature`).
-5. Open a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-- Thanks to the *Rick and Morty* creators for the inspiration!
-- The Flutter community for amazing packages and support.
-- The Rick and Morty API for providing character data.
-
----
-
-Happy exploring through the multiverse with Rick and Morty! 🚀 Wubba Lubba Dub Dub!
